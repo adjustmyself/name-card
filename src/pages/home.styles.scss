@@ -1,0 +1,34 @@
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 25%;
+    ul {
+        position: relative;
+        :hover {
+            color: #0002;
+        }
+        li {
+            text-align: center;
+            list-style: none;
+            :hover {
+                color: #000;
+                transform: scale(1.1);
+            }
+            a {
+                color: white;
+                font-size: 3rem;
+                text-decoration: none;
+                padding: 5px 20px;
+                display: inline-flex;
+                font-weight: 700;
+                transition: 0.3s;
+                &.activate {
+                    color:lightslategray;
+                }               
+            }
+        }
+    }
+}

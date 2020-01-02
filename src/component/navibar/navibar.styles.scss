@@ -1,0 +1,21 @@
+
+.nav-top {
+    width: 50vw;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+    top:15%;
+    .title {
+        color: white;
+    }
+}
+
+.nav-bottom {
+    width: 50vw;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    left: 25%;
+    top:85%;
+}

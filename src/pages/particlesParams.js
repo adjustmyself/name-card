@@ -12,7 +12,7 @@ const ParticlesJS = () => {
                 "value": "#ADD8E6"
             },
             "number": {
-                "value": 200,
+                "value": 150,
                 "density": {
                     "enable": false
                 }

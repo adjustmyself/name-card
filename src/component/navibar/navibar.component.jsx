@@ -6,10 +6,10 @@ const Navibar = ({naviTitle}) => {
     return (
     <>
         <nav className='nav-top'>
-            <h1 className='title'>{naviTitle}</h1>
+            <span className='title'>{naviTitle}</span>
         </nav>
         <nav className='nav-bottom'>
-
+            <span>Copyright © 2020 Winz All rights reserved.</span>
         </nav>
     </>    
     );

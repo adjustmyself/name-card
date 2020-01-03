@@ -9,7 +9,6 @@ import About from './component/content/about/about.component';
 import Home from './component/content/home/home.component';
 import Skills from './component/content/skill/skill.component';
 import Projects from './component/content/project/project.component';
-import Contact from './component/content/contact/contact.component';
 import Links from './component/content/link/link.component';
 import NaviBar from './component/navibar/navibar.component';
 
@@ -26,7 +25,6 @@ class App extends Component{
                         <Route path='/about' component={ About }></Route>
                         <Route path='/skill' component={ Skills }></Route>
                         <Route path='/project' component={ Projects }></Route>
-                        <Route path='/contact' component={ Contact }></Route>
                         <Route path='/link' component={ Links }></Route>
                     </Switch> 
                 </div> 

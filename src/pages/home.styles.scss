@@ -1,11 +1,16 @@
-.navigation {
+.navigation-left {
+    width: 20vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
     position: absolute;
-    top: 25%;
+    top: 26%;
+    @media screen and (max-width:800px){
+        display: none;
+    }
     ul {
+        margin: 0;
+        padding: 0;
         position: relative;
         :hover {
             color: #0002;
@@ -21,13 +26,40 @@
                 color: white;
                 font-size: 3rem;
                 text-decoration: none;
-                padding: 5px 20px;
+                padding: 10px 20px;
                 display: inline-flex;
                 font-weight: 700;
-                transition: 0.3s;
-                &.activate {
-                    color:lightslategray;
-                }               
+                transition: 0.3s;            
+            }
+        }
+    }
+}
+
+.navigation-top {
+    display: none;
+    @media screen and (max-width:800px){
+        display: flex;
+        position: absolute;
+        height: 13vh;
+        writing-mode: vertical-lr;
+        width: 100vw;;
+        ul {
+            margin: 0;
+            padding: 0;
+            li {
+                width: 20vw;
+                text-align: center;
+                list-style: none;
+                a {
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    color: white;
+                    font-size: 16px;
+                    text-decoration: none;
+                    padding: 0px 20px;
+                    display: inline-flex;
+                    font-weight: 700;           
+                }
             }
         }
     }

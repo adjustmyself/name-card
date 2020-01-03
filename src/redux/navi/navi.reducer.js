@@ -1,5 +1,5 @@
 const INITIAL_STATE = {
-    naviTitle:'HOME'
+    naviTitle:''
 }
 
 const naviReducer = (state = INITIAL_STATE, action) => {

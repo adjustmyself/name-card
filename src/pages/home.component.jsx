@@ -2,7 +2,7 @@ import React from 'react';
 import './home.styles.scss';
 import { Link } from 'react-router-dom';
 
-const HomePage = ({setNaviTitle}) => (
+const HomePage = () => (
     <>
         <div className='navigation-left'>
             <ul>
